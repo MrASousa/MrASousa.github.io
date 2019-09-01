@@ -3324,8 +3324,14 @@ input[type="button"].btn-block {
     right: 0;
     left: auto;
   }
-}
 
+}
+@media (max-width: 990px) {
+  .navbar-brand img{
+    top: 22px !important;
+    width: 250px !important;
+  }
+}
 @media (min-width: 768px) {
   .dropdown-menu-md-left {
     right: auto;
