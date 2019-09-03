@@ -10793,8 +10793,27 @@ header.masthead h1 {
     width: 190px;
     position: absolute;
     top: 15px;
-    filter: grayscale(100%) invert(80%);
+    /* filter: grayscale(100%) invert(80%); */
 }
+
+nav#mainNav {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+
+a.nav-link {
+  color: #212529;
+}
+
+a.nav-link.js-scroll-trigger {
+  color: #212529 !important;
+}
+
+a.nav-link.js-scroll-trigger:hover {
+  color: #92c83d !important;
+}
+
 
 .navbar-scrolled .navbar-brand img {
     filter: none;
