@@ -10689,7 +10689,7 @@ header.masthead {
 button.whatsapp {
     position: fixed;
     bottom: 3%;
-    right: 2%;
+    left: 2%;
     background: none;
     border: 0;
 }
