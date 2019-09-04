@@ -10892,3 +10892,7 @@ section#services2 {
 section#portfolio {
   padding-top: 3rem;
 }
+
+section#about {
+  margin-top: -4rem;
+}
