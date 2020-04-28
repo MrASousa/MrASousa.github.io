@@ -10720,7 +10720,7 @@ header.masthead h1 {
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
-    min-height: 40rem;
+    min-height: 39rem;
     padding-top: 72px;
     padding-bottom: 0;
   }
@@ -10836,7 +10836,7 @@ height: 100%;
 }
 
 .download-app img {
-  max-width: 20%;
+  max-width: 100%;
   margin-left: 1%;
   display: inline-block;
   margin-right: 1%;
@@ -10852,7 +10852,8 @@ height: 100%;
 }
 
 .main-logo{
-  max-width: 350px;
+  max-width: 330px;
+  margin-top: -40px;
 }
 
 
@@ -10895,4 +10896,29 @@ section#portfolio {
 
 section#about {
   margin-top: -4rem;
+}
+
+
+ .masthead ul li {
+  text-align: initial;
+  list-style: none;
+  font-size: 1.3em;
+  color: white !important;
+}
+.center-ul {
+  margin-left: 10%;
+}
+
+.downloadimg a {
+  display: inline-block;
+  max-width: 150px;
+  padding: 0;
+  margin-left: 30px;
+}
+
+.downloadimg img {
+  width: 100%;
+}
+.downloadimg {
+  margin-top: 2em;
 }

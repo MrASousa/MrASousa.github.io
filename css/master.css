@@ -1,5 +1,5 @@
 body {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 .bar {
@@ -598,4 +598,8 @@ right: -1.5px !important;
 
 .prod-group:hover {
     box-shadow: 0px 2px 20px 1px #50505094;
+}
+
+.page-section ul li {
+    text-align: initial;
 }
